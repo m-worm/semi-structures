@@ -1,0 +1,8 @@
+# Complete runtime dependencies for the semi-structures examples and renderers.
+# Install the package itself from this directory with: python -m pip install -e .
+matplotlib>=3.7
+numpy>=1.24
+manifold3d>=3.0
+pillow>=10
+pyvista>=0.46
+trimesh>=4.0

@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semi-structures"
+version = "0.2.0"
+description = "Material-aware semiconductor structure diagrams and process-flow models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Matthew Wormington", email = "m_wormington@hotmail.com"},
+]
+keywords = ["semiconductor", "process-flow", "visualization", "3d", "materials"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+  "matplotlib>=3.7",
+  "numpy>=1.24",
+]
+
+[project.scripts]
+semi-structures = "semi_structures.cli:main"
+semi-structures-mcp = "semi_structures.mcp_server:main"
+
+[project.urls]
+Homepage = "https://github.com/m-worm/semi-structures"
+Repository = "https://github.com/m-worm/semi-structures"
+Issues = "https://github.com/m-worm/semi-structures/issues"
+Changelog = "https://github.com/m-worm/semi-structures/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+solid = [
+  "manifold3d>=3.0",
+  "pillow>=10",
+  "pyvista>=0.46",
+  "trimesh>=4.0",
+]
+mcp = [
+  "mcp>=1.9",
+]
+dev = [
+  "build>=1.2",
+  "pytest>=8",
+]
+all = [
+  "manifold3d>=3.0",
+  "pillow>=10",
+  "pyvista>=0.46",
+  "trimesh>=4.0",
+  "mcp>=1.9",
+  "build>=1.2",
+  "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["src"]
+testpaths = ["tests"]
+# VTK sets .shape on a NumPy array, which NumPy 2.5 deprecates; it fires on
+# every solid render and buries our own warnings. Third-party and harmless,
+# so it is silenced here only -- narrowly, by message and module, and only
+# under pytest, so a user still sees it.
+filterwarnings = [
+  "ignore:Setting the shape on a NumPy array has been deprecated:DeprecationWarning:vtkmodules.util.numpy_support",
+]

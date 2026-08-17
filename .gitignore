@@ -1,0 +1,104 @@
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+
+# Packaging and build artefacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+*.manifest
+*.spec
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+.envrc
+.python-version
+__pypackages__/
+.pdm-python
+.pdm-build/
+
+# Test, coverage and type-checker caches
+.pytest_cache/
+.tox/
+.nox/
+.cache
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py.cover
+cover/
+htmlcov/
+nosetests.xml
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.hypothesis/
+cython_debug/
+
+# Notebooks and IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# PyPI credentials
+.pypirc
+
+# --- LaTeX showcase ----------------------------------------------------------
+# The .tex source and the built showcase.pdf are both tracked, so a reader can
+# open the document without installing LaTeX; only the intermediates are not.
+docs/*.aux
+docs/*.bbl
+docs/*.blg
+docs/*.fdb_latexmk
+docs/*.fls
+docs/*.log
+docs/*.out
+docs/*.synctex.gz
+docs/*.toc
+
+# --- Editors and OS ----------------------------------------------------------
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+tempCodeRunnerFile.py
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Scratch -----------------------------------------------------------------
+tmp/
+scratch/
+*.bak
+*.orig

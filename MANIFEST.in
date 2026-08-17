@@ -1,0 +1,10 @@
+# The wheel carries only the importable package; the source distribution also
+# carries the material a reader needs to reproduce the figures: the example
+# generators, the written guides, and the changelog. Generated figures and the
+# LaTeX showcase stay out -- they are large, and the repository holds them.
+include CHANGELOG.md
+include requirements.txt
+recursive-include examples *.py *.md
+recursive-include docs *.md
+prune docs/figures
+prune docs/dev
