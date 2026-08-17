@@ -47,9 +47,13 @@ rest are mechanical.
       the hero and gallery would render broken on a project page.
 - [x] ~~**Add `CITATION.cff`** so the package can be cited from a paper.~~
       Done: `CITATION.cff` carries the 0.2.0 metadata.
-- [ ] **Check every DOI and external link in `examples/REFERENCES.md`
-      resolves.** They were written from knowledge of the literature and have
-      not been fetched.
+- [x] ~~**Check every DOI and external link in `examples/REFERENCES.md`
+      resolves.**~~ Done: all 25 links were fetched and all 17 DOIs resolved
+      through content negotiation, and their registered metadata was compared
+      with the citation text. Intel, APS and AIP return 403 to a scripted
+      client, so a status check alone reports them as broken when they are
+      not. One error was corrected: the 2024 VLSI 3D DRAM paper is by
+      J. Park et al., not J. Oh et al.
 - [x] ~~**Silence the VTK deprecation warning.**~~ Done: a narrow
       `filterwarnings` entry in `pyproject.toml` (matched by message *and*
       module, under pytest only) drops about a thousand third-party warnings

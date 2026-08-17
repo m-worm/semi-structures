@@ -40,7 +40,7 @@ of them to material coloring.
 |---|---|
 | Self-aligned double-gate FinFET | D. Hisamoto et al., “FinFET—A self-aligned double-gate MOSFET scalable to 20 nm,” *IEEE Transactions on Electron Devices* 47, 2320–2325 (2000), [doi:10.1109/16.887014](https://doi.org/10.1109/16.887014). |
 | Stacked gate-all-around nanosheets | N. Loubet et al., “Stacked nanosheet gate-all-around transistor to enable scaling beyond FinFET,” *Symposium on VLSI Technology* (2017), [doi:10.23919/VLSIT.2017.7998183](https://doi.org/10.23919/VLSIT.2017.7998183). |
-| Buried rails and backside power | D. Prasad et al., “Buried Power Rails and Back-side Power Grids,” *IEDM* (2019), [doi:10.1109/IEDM19573.2019.8993617](https://doi.org/10.1109/IEDM19573.2019.8993617). |
+| Buried rails and backside power | D. Prasad et al., “Buried Power Rails and Back-side Power Grids: Arm CPU Power Delivery Network Design Beyond 5nm,” *IEDM* (2019), [doi:10.1109/IEDM19573.2019.8993617](https://doi.org/10.1109/IEDM19573.2019.8993617). |
 | nTSVs landing on buried rails | A. Veloso et al., “Scaled FinFETs Connected by Using Both Wafer Sides for Routing via Buried Power Rails,” *IEEE Transactions on Electron Devices* 69, 7173–7179 (2022), [doi:10.1109/TED.2022.3205561](https://doi.org/10.1109/TED.2022.3205561). |
 
 ## Memory
@@ -50,7 +50,7 @@ of them to material coloring.
 | One-transistor/one-capacitor DRAM | R. H. Dennard, “Field-Effect Transistor Memory,” US Patent 3,387,286 (1968), [Google Patents](https://patents.google.com/patent/US3387286A/en). |
 | DRAM scaling and trench/stacked capacitors | J. A. Mandelman et al., “Challenges and future directions for the scaling of dynamic random-access memory,” *IBM Journal of Research and Development* 46, 187–212 (2002), [doi:10.1147/rd.462.0187](https://doi.org/10.1147/rd.462.0187). |
 | Bit-cost-scalable 3D NAND | H. Tanaka et al., “Bit Cost Scalable Technology with Punch and Plug Process for Ultra High Density Flash Memory,” *Symposium on VLSI Technology* (2007), [doi:10.1109/VLSIT.2007.4339708](https://doi.org/10.1109/VLSIT.2007.4339708). |
-| Vertical-bit-line 3D DRAM | J. Oh et al., “A Three Dimensional DRAM (3D DRAM) Technology for the Next Decades,” *IEEE Symposium on VLSI Technology and Circuits* (2024), [doi:10.1109/VLSITechnologyandCir46783.2024.10631471](https://doi.org/10.1109/VLSITechnologyandCir46783.2024.10631471). |
+| Vertical-bit-line 3D DRAM | J. Park et al., “A Three Dimensional DRAM (3D DRAM) Technology for the Next Decades,” *IEEE Symposium on VLSI Technology and Circuits* (2024), [doi:10.1109/VLSITechnologyandCir46783.2024.10631471](https://doi.org/10.1109/VLSITechnologyandCir46783.2024.10631471). |
 
 ## Lasers and LEDs
 
@@ -60,7 +60,7 @@ of them to material coloring.
 | Room-temperature double-heterostructure laser | I. Hayashi et al., “Junction Lasers Which Operate Continuously at Room Temperature,” *Applied Physics Letters* 17, 109–111 (1970), [doi:10.1063/1.1653326](https://doi.org/10.1063/1.1653326). |
 | Distributed-feedback laser principle | H. Kogelnik and C. V. Shank, “Stimulated Emission in a Periodic Structure,” *Applied Physics Letters* 18, 152–154 (1971), [doi:10.1063/1.1653605](https://doi.org/10.1063/1.1653605). |
 | Surface-emitting injection laser | H. Soda et al., “GaInAsP/InP Surface Emitting Injection Lasers,” *Japanese Journal of Applied Physics* 18, 2329–2330 (1979), [doi:10.1143/JJAP.18.2329](https://doi.org/10.1143/JJAP.18.2329). |
-| High-brightness InGaN/AlGaN blue LED | S. Nakamura, T. Mukai, and M. Senoh, *Applied Physics Letters* 64, 1687–1689 (1994), [doi:10.1063/1.111832](https://doi.org/10.1063/1.111832). |
+| High-brightness InGaN/AlGaN blue LED | S. Nakamura, T. Mukai and M. Senoh, “Candela-class high-brightness InGaN/AlGaN double-heterostructure blue-light-emitting diodes,” *Applied Physics Letters* 64, 1687–1689 (1994), [doi:10.1063/1.111832](https://doi.org/10.1063/1.111832). |
 | InGaN/GaN micro-LED display | H. X. Jiang et al., “III-nitride blue microdisplays,” *Applied Physics Letters* 78, 1303–1305 (2001), [doi:10.1063/1.1351521](https://doi.org/10.1063/1.1351521). |
 
 ## SiC power devices
@@ -68,6 +68,6 @@ of them to material coloring.
 | Example concept | Reference |
 |---|---|
 | SiC rectifiers and vertical switches | J. A. Cooper and A. Agarwal, “SiC power-switching devices—the second electronics revolution?” *Proceedings of the IEEE* 90, 956–968 (2002), [doi:10.1109/JPROC.2002.1021561](https://doi.org/10.1109/JPROC.2002.1021561). |
-| Double-implanted SiC MOSFET channel | V. R. Vathulya and M. H. White, *IEEE Transactions on Electron Devices* 47, 2018–2023 (2000), [doi:10.1109/16.877161](https://doi.org/10.1109/16.877161). |
+| Double-implanted SiC MOSFET channel | V. R. Vathulya and M. H. White, “Characterization of inversion and accumulation layer electron transport in 4H and 6H-SiC MOSFETs on implanted P-type regions,” *IEEE Transactions on Electron Devices* 47, 2018–2023 (2000), [doi:10.1109/16.877161](https://doi.org/10.1109/16.877161). |
 | Shielded 4H-SiC trench MOSFET | X. Zhou et al., “4H-SiC Trench MOSFET With Floating/Grounded Junction Barrier-controlled Gate Structure,” *IEEE Transactions on Electron Devices* 64, 4568–4574 (2017), [doi:10.1109/TED.2017.2755721](https://doi.org/10.1109/TED.2017.2755721). |
-| Vertical 4H-SiC tri-gate MOSFET | R. P. Ramamurthy et al., *IEEE Electron Device Letters* 42, 90–93 (2021), [doi:10.1109/LED.2020.3040239](https://doi.org/10.1109/LED.2020.3040239). |
+| Vertical 4H-SiC tri-gate MOSFET | R. P. Ramamurthy et al., “The Tri-Gate MOSFET: A New Vertical Power Transistor in 4H-SiC,” *IEEE Electron Device Letters* 42, 90–93 (2021), [doi:10.1109/LED.2020.3040239](https://doi.org/10.1109/LED.2020.3040239). |
