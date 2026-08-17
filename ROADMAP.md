@@ -50,7 +50,7 @@ rest are mechanical.
 - [x] ~~**Check every DOI and external link in `examples/REFERENCES.md`
       resolves.**~~ Done: all 25 links were fetched and all 17 DOIs resolved
       through content negotiation, and their registered metadata was compared
-      with the citation text. Intel, APS and AIP return 403 to a scripted
+      with the citation text. Some publishers return 403 to a scripted
       client, so a status check alone reports them as broken when they are
       not. One error was corrected: the 2024 VLSI 3D DRAM paper is by
       J. Park et al., not J. Oh et al.

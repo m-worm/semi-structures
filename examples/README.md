@@ -40,7 +40,7 @@ script, the natural-language prompt that produces it.
 The scripts are scientific schematics rather than fabrication drawings.
 Their structural precedents and DOI links are collected in
 [`REFERENCES.md`](REFERENCES.md). That file also traces the supplied HBM,
-PowerVia, nTSV, simplified-backside-power, 3D X-DRAM, GPU-package,
+nTSV, simplified-backside-power, 3D X-DRAM, GPU-package,
 transistor-evolution and capacitor-schematic reference images
 to their sources. The generated
 examples are independent redrawings rather than reproductions.

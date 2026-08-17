@@ -1,10 +1,7 @@
 """fig_backside_power_delivery.py -- nTSV / buried-power-rail testcase.
 
-Inspired by the supplied signal-versus-power references and grounded in:
+Inspired by the supplied signal-versus-power reference and grounded in:
 
-* Intel Foundry, ``Cutting-edge Process Technologies for Data Center``,
-  Figure 4 (PowerVia tower rendering),
-  https://www.intel.com/content/www/us/en/foundry/library/advanced-process-technologies-for-data-center.html
 * Aminext, ``What is Backside Power Delivery (BSP)?``, nTSV diagram,
   https://www.aminext.blog/en/post/backside-power-delivery-bsp-explained-1
 
