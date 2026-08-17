@@ -46,7 +46,8 @@ rest are mechanical.
 - [ ] **Swap README images to absolute URLs *only if* publishing to PyPI.**
       Relative paths are correct for GitHub. PyPI does not resolve them, so
       the hero and gallery would render broken on a project page.
-- [ ] **Add `CITATION.cff`** so the package can be cited from a paper.
+- [x] ~~**Add `CITATION.cff`** so the package can be cited from a paper.~~
+      Done: `CITATION.cff` carries the 0.2.0 metadata.
 - [ ] **Check every DOI and external link in `examples/REFERENCES.md`
       resolves.** They were written from knowledge of the literature and have
       not been fetched.
@@ -54,10 +55,11 @@ rest are mechanical.
       `filterwarnings` entry in `pyproject.toml` (matched by message *and*
       module, under pytest only) drops about a thousand third-party warnings
       per run to zero, while the package's own deprecations still surface.
-- [ ] **Decide on Python 3.13.** `requires-python = ">=3.10"` admits it, but
-      the classifiers stop at 3.12 and CI does not test it.
-- [ ] **Reconcile `requirements.txt` with `pyproject.toml`**, which now state
-      the runtime dependencies twice.
+- [x] ~~**Decide on Python 3.13.**~~ Supported: the classifier is present
+      and CI tests 3.13 on Linux and Windows alongside 3.10 to 3.12.
+- [x] ~~**Reconcile `requirements.txt` with `pyproject.toml`.**~~ Done:
+      `requirements.txt` is now `-e .[all]`, so the versions are declared
+      once, in `pyproject.toml`.
 
 ---
 

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: >-
+  semi-structures: material-aware semiconductor structure diagrams and
+  process-flow models for Python
+message: If you use this software, please cite it as below.
+type: software
+authors:
+  - given-names: Matthew
+    family-names: Wormington
+    email: m_wormington@hotmail.com
+repository-code: https://github.com/m-worm/semi-structures
+license: MIT
+version: 0.2.0
+date-released: '2026-08-17'
+keywords:
+  - semiconductor
+  - visualization
+  - process flow
+  - materials
+  - Python
+abstract: >-
+  A Python package for drawing semiconductor structures and expressing simple
+  fabrication flows. A structure is authored once as a process, then drawn by
+  whichever of three renderers preserves it: a vector isometric engine, a 2D
+  cross-section renderer, or a true-solid Boolean backend built on trimesh,
+  manifold3d and PyVista. One material palette runs through all three, where
+  hue gives the chemical family and lightness tracks electron density, so
+  related figures agree with one another. Every text size is points at print
+  width and no renderer accepts anything below 7 pt. A model can be saved as
+  a JSON process document and replayed to the same geometry, and the same
+  operations are available from a command line and over the Model Context
+  Protocol.

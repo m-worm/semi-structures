@@ -1,8 +1,10 @@
-# Complete runtime dependencies for the semi-structures examples and renderers.
-# Install the package itself from this directory with: python -m pip install -e .
-matplotlib>=3.7
-numpy>=1.24
-manifold3d>=3.0
-pillow>=10
-pyvista>=0.46
-trimesh>=4.0
+# pyproject.toml is the single source of truth for dependencies. This file
+# exists only for tools that expect a requirements file, and it installs the
+# package with every extra, which is what the examples need.
+#
+#   core only (process DSL, vector and section renderers):
+#       python -m pip install -e .
+#   everything (adds the solid backend, the MCP server and the test tools):
+#       python -m pip install -e ".[all]"
+#
+-e .[all]
