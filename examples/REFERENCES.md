@@ -27,6 +27,13 @@ is attribution rather than a claim of permission. If you recognize an
 unidentified image, please open an issue and it will be credited or the
 figure withdrawn.
 
+Three figures carry a reference's own role or presentation colors. They are
+there to demonstrate that both renderers accept an explicit color override,
+so the scheme is the subject of the demonstration rather than an attempt to
+reproduce the original artwork. Each is kept in its own script, the palette
+remains the default everywhere else, and removing the override returns any
+of them to material coloring.
+
 ## Logic and interconnect
 
 | Example concept | Reference |

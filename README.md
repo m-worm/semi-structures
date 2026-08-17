@@ -305,7 +305,10 @@ The intended workflow with a multimodal coding assistant is:
    background via `Scene.render(background=..., edge_color=...)`) are
    permitted, but they are deliberate exceptions to the palette law and live
    in separate, clearly labeled scripts so the material-colored figures
-   remain the defaults.
+   remain the defaults. Where an example does carry a reference's own
+   scheme, the override is the feature being demonstrated rather than an
+   attempt to reproduce the artwork, and removing it gives the
+   palette-colored equivalent.
 4. Review the result as you would any figure. Geometry, layer order,
    terminology and citation are the user's responsibility.
 
