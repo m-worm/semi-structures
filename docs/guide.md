@@ -306,7 +306,6 @@ embeds the raster panels at 300+ dpi.
 | `examples/fig_transistor_solid.py` | solid + composition + ghosted gates |
 | `examples/fig_hbm_labeled.py` | solid: HBM package, sphere arrays, and backend-native callout labels |
 | `examples/fig_transistor_evolution_rolecolor.py` | solid: role-colored line-up (raw hex fills), opaque gates, per-panel `print_width_in` callouts |
-| `examples/fig_chiplet_package.py` | solid: chiplet CPU package from a reference image, PCB plateau, tile groups, stacked chiplet towers |
 | `examples/fig_backside_power_simple.py` | solid: simplified backside-power block, `drill_rect` step and plate slots, one W nTSV, Sn balls |
 | `examples/fig_gpu_cowos_exploded.py` | solid: exploded CoWoS-style GPU package (`explode=` gap between levels, empty world-space labels as corner guide lines), sphere-array bump fields, six HBM towers, plan-view inset from a second camera |
 | `examples/fig_dram3d_reference_colors.py` | solid: presentation-style render (`background=`, `edge_color=`, light callouts) |

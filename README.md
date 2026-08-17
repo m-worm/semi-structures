@@ -104,14 +104,13 @@ process language and its status table are in [`ROADMAP.md`](ROADMAP.md).
 - Solid scenes also support shells, arbitrary Boolean cuts, capped cutaways,
   transparency, bowed slabs (`box(bow=)` for film-stress figures), and
   3D-anchored routed labels with optional stick-and-ball dots.
-- Twenty-nine reproducible example generators. Twenty-two of the figures
+- Twenty-eight reproducible example generators. Twenty-two of the figures
   are collected in a referenced, multi-page LaTeX showcase, and no figure
   carries text below 7 pt.
 - The reference-image workflow, demonstrated by six figures authored by a
   multimodal assistant from supplied images. Three keep the package's
-  material palette: a chiplet CPU package, a CoWoS-style GPU package with
-  six HBM stacks (drawn assembled and exploded) and a simplified
-  backside-power block. Three reproduce their reference's role or
+  material palette: the CoWoS-style GPU package with six HBM stacks, drawn
+  assembled and again exploded, and a simplified backside-power block. Three reproduce their reference's role or
   presentation colors on request, as explicit and separate overrides
   (`background=`/`edge_color=` on the solid renderer, raw hex fills).
 - MIT licensed.
@@ -312,11 +311,10 @@ The intended workflow with a multimodal coding assistant is:
 
 [`docs/prompt-gallery.md`](docs/prompt-gallery.md) lists example prompts
 and the figures they produce. Six examples show the reference-image
-workflow end to end. `fig_chiplet_package.py` (a
-chiplet CPU package on a PCB plateau with 3D-stacked customer chiplets and
-Cu die-to-die bridges), `fig_gpu_cowos_exploded.py` (an exploded
-CoWoS-style GPU package: substrate, C4 field, interposer, microbumps, GPU
-die and six HBM towers, with an assembled plan-view inset) and
+workflow end to end. `fig_gpu_cowos_assembled.py` and
+`fig_gpu_cowos_exploded.py` (a CoWoS-style GPU package assembled and then
+exploded: substrate, C4 field, interposer, microbumps, GPU die and six HBM
+towers) and
 `fig_backside_power_simple.py` (the simplified backside-power block:
 exploded signal plates slotted around one nTSV) keep the material palette.
 `fig_transistor_evolution_rolecolor.py`, `fig_dram3d_reference_colors.py`
@@ -389,7 +387,7 @@ renderings (vector isometric, solid and role-colored solid), DRAM and NAND
 memory generations, a process-DSL 3D DRAM and a 3D NAND with a hexagonal
 memory-hole array in slit-separated blocks. It also covers III-V and
 III-nitride emitters, 4H-SiC power devices, backside power delivery in a
-detailed and a simplified form, the HBM, chiplet and GPU packages, plus the
+detailed and a simplified form, the HBM and GPU packages, plus the
 reference-image set above. See
 [`examples/README.md`](examples/README.md) for the complete list and the
 feature-coverage table.

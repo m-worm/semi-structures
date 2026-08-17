@@ -33,7 +33,6 @@ EXAMPLES = (
     "fig_backside_power_simple.py",
     "fig_hbm_labeled.py",
     # authored from reference images (see examples/REFERENCES.md)
-    "fig_chiplet_package.py",
     "fig_gpu_cowos_exploded.py",
     "fig_gpu_cowos_assembled.py",
     "fig_transistor_evolution_rolecolor.py",

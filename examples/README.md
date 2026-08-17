@@ -28,7 +28,6 @@ Each generator writes its PDF and/or PNG output to `docs/figures`.
 | `fig_backside_power_delivery.py` | solid | Signal layers, transistors, buried rails, nTSVs, and backside power |
 | `fig_backside_power_simple.py` | solid | The simplified backside-power block from a reference illustration: exploded Cu signal plates slotted around one W nTSV, transistor pads on thinned Si, a stepped Cu-in-SiO2 power block, Sn balls |
 | `fig_hbm_labeled.py` | solid | HBM package (PCB substrate, neutral die gray) with 3D-anchored stick-and-ball callouts, every anchor on a face the camera can see |
-| `fig_chiplet_package.py` | solid | Chiplet CPU package authored from a reference image: PCB plateau, compute/I/O tiles, 3D-stacked chiplets, Cu D2D bridges |
 | `fig_gpu_cowos_exploded.py` | solid + Matplotlib | Exploded CoWoS-style GPU package from two reference images: substrate with C4 field and capacitors, Si interposer with microbump fields, GPU die and six HBM towers; corner guide lines; assembled plan-view inset |
 | `fig_gpu_cowos_assembled.py` | solid | The same GPU package assembled, with stick-and-ball callouts naming only the parts a camera can see once the bump fields are hidden |
 | `fig_transistor_evolution_rolecolor.py` | solid + Matplotlib | The transistor line-up in the classic diagram's *role* colors (gate green, PMOS blue, NMOS red), true solids with opaque gates -- a presentation override, kept separate |
@@ -41,14 +40,14 @@ script, the natural-language prompt that produces it.
 The scripts are scientific schematics rather than fabrication drawings.
 Their structural precedents and DOI links are collected in
 [`REFERENCES.md`](REFERENCES.md). That file also traces the supplied HBM,
-PowerVia, nTSV, simplified-backside-power, 3D X-DRAM, chiplet-package,
-GPU-package, transistor-evolution and capacitor-schematic reference images
+PowerVia, nTSV, simplified-backside-power, 3D X-DRAM, GPU-package,
+transistor-evolution and capacitor-schematic reference images
 to their sources. The generated
 examples are independent redrawings rather than reproductions.
 
 Six generators are the reference-image workflow in action: a multimodal
 assistant used a supplied image for composition, viewpoint and callouts and
-wrote a new package script. `fig_chiplet_package.py`,
+wrote a new package script. `fig_gpu_cowos_assembled.py`,
 `fig_gpu_cowos_exploded.py` and `fig_backside_power_simple.py` keep the
 package's material palette. The other three reproduce their reference's *role*
 or presentation colors on request. Raw hex fills are allowed by both
@@ -80,7 +79,7 @@ defaults.
 | Stick-and-ball callouts (`marker="dot"`, `render(label_marker=)`) | film-stress bow |
 | Boolean holes, rectangular cuts, and capped cutaways | solid DSL tour and solid NAND |
 | Transparency and mixed raster/vector composition | solid transistor and backside power |
-| 3D anchors, routed callouts, and fixed 2D text | backside power, labeled HBM, chiplet package, GPU package |
+| 3D anchors, routed callouts, and fixed 2D text | backside power, labeled HBM, GPU package |
 | Exploded views (empty world-space labels as 3D guide lines, `explode=` parameter) | GPU package |
 | JSON serialization (`to_json` / `from_json`) | serialization round-trip |
 | Solid backend across the whole range, one camera | hero banner |

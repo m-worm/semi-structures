@@ -66,7 +66,7 @@ extended for release.
 - **Backend dispatch.** Rectilinear topology stays exact vector. Curved or
   rotated footprints, circular wafers, implants and sections go to the solid
   model, never silently losing an operation.
-- **Examples and documentation.** 29 reproducible figure generators, a
+- **Examples and documentation.** 28 reproducible figure generators, a
   26-page LaTeX showcase, a prompt gallery, the guide (DSL, renderers and
   palette reference), the capability-status table and provenance for every
   supplied reference image.

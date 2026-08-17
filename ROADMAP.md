@@ -17,13 +17,13 @@ rest are mechanical.
 
 ### Blocking
 
-- [ ] **(author) Confirm the five reference-image provenance rows.**
-      `examples/REFERENCES.md` still says *"source to be confirmed by the
-      author"* or *"source page to be added"* for the chiplet CPU package
-      illustration, the simplified backside-power illustration, the H100
-      package photograph and CoWoS graphic, the transistor-evolution diagram
-      (Zhihu watermark, `@Tommy哥`), and the two-panel 3D DRAM capacitor
-      schematic. The figures are independent redrawings and no image is
+- [ ] **(author) Identify four supplied reference images.**
+      `examples/REFERENCES.md` now states plainly which publishers are known
+      and which are not. Still unidentified: the simplified backside-power
+      illustration, the CoWoS graphic accompanying the H100 package
+      photograph, the original creator of the transistor-evolution diagram
+      (the screenshot carries a Zhihu watermark, `@Tommy哥`), and the
+      two-panel 3D DRAM capacitor schematic. The figures are independent redrawings and no image is
       redistributed, but each row should name its source or say plainly that
       the origin could not be established. This is the one item with real
       consequences for a public repository.

@@ -58,7 +58,6 @@ prompt asks for them, in a separate script.
 | "Backside power delivery: wide backside Cu, W nano-TSVs up to buried W rails, a transistor tier, frontside Cu signal layers; make the thinned Si semi-transparent so the TSVs show; label everything." | `backside_power_delivery` | `fig_backside_power_delivery.py` |
 | *(with a reference image)* "Simplified backside power example: signal layers exploded above as plates, a power block below with one nTSV running through, transistors on the thinned Si, solder balls underneath." | `backside_power_simple` | `fig_backside_power_simple.py` |
 | "An HBM package: PCB substrate, Sn solder balls, Si interposer, GPU die, logic die and an eight-high DRAM stack with Cu bond layers; dies and interposer in the neutral die grey, logic dies one shade darker; stick-and-ball callouts with a dot on each named part." | `hbm_labeled` | `fig_hbm_labeled.py` |
-| *(with a reference image)* "Make this chiplet CPU package: PCB with a raised plateau, a 2×2 quad of compute tiles, I/O tiles around it, three 3D-stacked customer chiplets, D2D bridges in the gaps, pads round the edge." | `chiplet_package` | `fig_chiplet_package.py` |
 | *(with two reference images)* "A modern GPU with six HBM stacks around the GPU die on an interposer on a substrate, as an exploded CoWoS view like this one; add an assembled plan view." | `gpu_cowos_exploded` | `fig_gpu_cowos_exploded.py` |
 | *(with a reference image)* "Now the same GPU package assembled rather than exploded, with a dot on each named part and leaders dark enough to read against grey dies." | `gpu_cowos_assembled` | `fig_gpu_cowos_assembled.py` |
 
@@ -92,8 +91,8 @@ calls `Wafer.render()`.
 ## Reference-image prompts
 
 With a multimodal assistant, attach the image and say what it is: "This is a
-manufacturer illustration of a chiplet package, draw the same composition
-with the package (PCB substrate, tile groups, stacked chiplets, D2D pads),
+manufacturer illustration of a package, draw the same composition
+with the package (substrate, tile groups, stacked dies, bridges),
 labels like the original." The assistant should (1) use the image only for
 composition, viewpoint and callouts, (2) write a new script, (3) add a
 provenance row to `examples/REFERENCES.md`, and (4) keep the material palette
