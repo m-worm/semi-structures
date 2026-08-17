@@ -17,14 +17,12 @@ rest are mechanical.
 
 ### Blocking
 
-- [ ] **(author) Identify two supplied reference images.**
-      `examples/REFERENCES.md` now states plainly which publishers are known
-      and which are not. Still unidentified: the simplified backside-power
-      illustration, and the CoWoS graphic accompanying the H100 package
-      photograph. The transistor-evolution diagram is traced as far as it
-      goes, to a LinkedIn post and a Zhihu watermark, neither of which
-      credits a creator. The capacitor schematic is a generic archetype and
-      needs no attribution. The figures are independent redrawings and no image is
+- [x] ~~**(author) Confirm the reference-image provenance rows.**~~ Done:
+      every supplied image now names where it came from. Two loose ends, both
+      minor. The transistor-evolution diagram is traced only as far as a
+      LinkedIn post and a Zhihu watermark, neither of which credits a
+      creator. It is worth checking once whether the Tom's Hardware article
+      credits the exploded CoWoS diagram to TSMC, and naming them if so. The figures are independent redrawings and no image is
       redistributed, but each row should name its source or say plainly that
       the origin could not be established. This is the one item with real
       consequences for a public repository.
