@@ -17,13 +17,13 @@ rest are mechanical.
 
 ### Blocking
 
-- [ ] **(author) Identify four supplied reference images.**
+- [ ] **(author) Identify three supplied reference images.**
       `examples/REFERENCES.md` now states plainly which publishers are known
       and which are not. Still unidentified: the simplified backside-power
       illustration, the CoWoS graphic accompanying the H100 package
-      photograph, the original creator of the transistor-evolution diagram
-      (the screenshot carries a Zhihu watermark, `@Tommy哥`), and the
-      two-panel 3D DRAM capacitor schematic. The figures are independent redrawings and no image is
+      photograph, and the two-panel 3D DRAM capacitor schematic. The
+      transistor-evolution diagram is traced as far as it goes, to a LinkedIn
+      post and a Zhihu watermark, neither of which credits a creator. The figures are independent redrawings and no image is
       redistributed, but each row should name its source or say plainly that
       the origin could not be established. This is the one item with real
       consequences for a public repository.
